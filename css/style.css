@@ -14,7 +14,7 @@
 
  - Primaty:#67e22
  - Tints:#fdf2e9
- - Shades:
+ - Shades:#cf711f
  - Accebts:
  - Greys:
  - #555
@@ -40,7 +40,7 @@ html {
 }
 
 body {
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
     line-height: 1;
     font-weight: 500;
     color: #555;
@@ -78,6 +78,7 @@ body {
 
 .btn:link,
 .btn:visited {
+    font-weight: 600;
     display: inline-block;
     background-color: #e67e22;
     color: #fff;
@@ -120,4 +121,37 @@ body {
 
 .hero-img {
     width: 100%;
+}
+
+.delivered-meals {
+    display: flex;
+    margin-top: 8rem;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.delivered-imgs {
+    display: flex;
+}
+
+.delivered-imgs img {
+    height: 4.8rem;
+    width: 4.8rem;
+    border-radius: 50%;
+    margin-right: -1.6rem;
+    border: 3px solid #fdf2e9;
+}
+
+.delivered-imgs img:last-child {
+    margin: 0;
+}
+
+.delivered-text {
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.delivered-text span {
+    font-weight: 700;
+    color: #cf711f;
 }
