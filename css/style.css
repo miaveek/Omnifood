@@ -6,9 +6,14 @@
       
      -Font weights
        Default:400
+       Medium: 500
+       Semi-bold: 600
+       Bold:700
 
      -Line heights
         Default:1
+        1.5
+        Paragraph default:1.6
 
 ---- 02 COLORS
 
@@ -22,7 +27,9 @@
  ---- 05 SHADOWS
  
  ---- 06 BORDER-RADIUS
- 
+
+  - Defualt:9px
+
  ---- 07 WHITESPACE
   2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 */
@@ -46,35 +53,7 @@ body {
     color: #555;
 }
 
-/*HERO SECTION */
-.section-hero {
-    background-color: #fdf2e9;
-    padding: 9.6rem 0;
-}
-
-.hero {
-    max-width: 130rem;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 9.6rem;
-    align-items: center;
-}
-
-.heading-primary {
-    font-size: 5.2rem;
-    line-height: 1.05;
-    color: #333;
-    font-weight: 700;
-    letter-spacing: -.5px;
-    margin-bottom: 3.2rem;
-}
-
-.hero-description {
-    font-size: 2rem;
-    line-height: 1.6;
-    margin-bottom: 4.8rem;
-}
+/*GENERAL COMPONENTS*/
 
 .btn:link,
 .btn:visited {
@@ -117,6 +96,96 @@ body {
 
 .margin-right-sm {
     margin-right: 1.6rem !important;
+}
+
+/*******************/
+/*HEADER*/
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fdf2e9;
+    /*Become we want to be sticky*/
+    height: 9.6rem;
+    padding: 0 4.8rem;
+}
+
+.heading-primary {
+    font-size: 5.2rem;
+    line-height: 1.05;
+    color: #333;
+    font-weight: 700;
+    letter-spacing: -.5px;
+    margin-bottom: 3.2rem;
+}
+
+.logo {
+    height: 2.2rem;
+}
+
+/*NAVIGATION*/
+.main-nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+}
+
+/*links style*/
+.main-nav-link:link,
+.main-nav-link:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    transition: all 0.3s;
+
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+    color: #e67e22
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+    padding: 1.2rem 2.4rem;
+    border-radius: 9px;
+    color: #fff;
+    background-color: #cf711f;
+
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+    background-color: #cf711f;
+}
+
+/*HERO SECTION */
+.section-hero {
+    background-color: #fdf2e9;
+    padding: 4.8rem 0 9.6rem 0;
+}
+
+.hero {
+    max-width: 130rem;
+    margin: 0 auto;
+    padding: 0 3.3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 9.6rem;
+    align-items: center;
+}
+
+
+
+.hero-description {
+    font-size: 2rem;
+    line-height: 1.6;
+    margin-bottom: 4.8rem;
 }
 
 .hero-img {
