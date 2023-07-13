@@ -3,7 +3,6 @@
 /*********************/
 .header {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     background-color: #fdf2e9;
@@ -42,7 +41,7 @@
 
 .main-nav-link:hover,
 .main-nav-link:active {
-    color: #e67e22
+    color: #cf711f
 }
 
 .main-nav-link.nav-cta:link,
@@ -50,7 +49,7 @@
     padding: 1.2rem 2.4rem;
     border-radius: 9px;
     color: #fff;
-    background-color: #cf711f;
+    background-color: #e67e22;
 
 }
 
@@ -76,8 +75,6 @@
     gap: 9.6rem;
     align-items: center;
 }
-
-
 
 .hero-description {
     font-size: 2rem;
@@ -113,7 +110,7 @@
 }
 
 .delivered-text {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     font-weight: 600;
 }
 
@@ -132,11 +129,11 @@
 .heading-featured-in {
     font-size: 1.4rem;
     font-weight: 500;
-    letter-spacing: .75px;
+    letter-spacing: 0.75px;
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 2.4rem;
-    color: #999;
+    color: #888;
 }
 
 .logos {
@@ -147,7 +144,7 @@
 .logos img {
     height: 3.2rem;
     filter: brightness(0);
-    opacity: .5;
+    opacity: 50%;
 }
 
 /*********************/
@@ -155,7 +152,7 @@
 /*********************/
 
 .section-how {
-    padding: .99rem 0;
+    padding: 9.6rem 0;
 }
 
 .step-description {
@@ -203,9 +200,10 @@
 }
 
 .step-number {
-    font-size: 9.6rem;
+    font-size: 8.6rem;
     font-weight: 600;
     color: #ddd;
+    margin-bottom: 1.2rem;
 }
 
 /*********************/
@@ -469,10 +467,10 @@
 }
 
 /*********************/
-/*PRACING SECTION */
+/*CALL TO ACTION SECTION */
 /*********************/
 .section-cta {
-    padding: 9.6rem 0;
+    padding: 9.6rem 0 12.8rem 0;
 }
 
 .cta {
@@ -544,4 +542,78 @@
     color: #aaa;
 }
 
-.cta-form select {}
+/*********************/
+/*FOOTER SECTION */
+/*********************/
+.footer {
+    padding: 12.8rem 0;
+    border-top: 1px solid #eee;
+}
+
+.grid--footer {
+    grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+
+.logo-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-heading {
+    font-size: 1.8;
+    font-weight: 500;
+    margin-bottom: 4rem;
+}
+
+.contacts {
+    font-style: normal;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+}
+
+.address {
+    margin-bottom: 2.4rem;
+}
+
+.footer-logo {
+    display: block;
+    margin-bottom: 3.2rem;
+}
+
+.social-links {
+    list-style: none;
+    display: flex;
+    gap: 3.4rem;
+}
+
+.social-icon {
+    height: 2.4rem;
+    width: 2.4rem;
+}
+
+.footer-nav {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #767676;
+    transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+    color: #555;
+}
+
+.copyright {
+    font-size: 1.4rem;
+    line-height: 1.6;
+    color: #767676;
+    margin-top: auto;
+}

@@ -7,7 +7,9 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Rubik:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
 
@@ -15,20 +17,25 @@
 </head>
 
 <body>
+    <!--HEADER-->
     <header class="header">
-        <img src="img/omnifood-logo.png" alt="Omnifood logo" class="logo">
+        <a href="#">
+            <img src="img/omnifood-logo.png" alt="Omnifood logo" class="logo">
+        </a>
+        <!--MAIN NAV-->
         <nav class="main-nav">
             <ul class="main-nav-list">
-                <li><a class="main-nav-link" href="#">Section 1</a></li>
-                <li><a class="main-nav-link" href="#">Section 2</a></li>
-                <li><a class="main-nav-link" href="#">Section 3</a></li>
-                <li><a class="main-nav-link" href="#">Section 4</a></li>
-                <li><a class="main-nav-link nav-cta" href="#">Section 5</a></li>
+                <li><a class="main-nav-link" href="#">Как это работает</a></li>
+                <li><a class="main-nav-link" href="#">Еда</a></li>
+                <li><a class="main-nav-link" href="#">Отзывы</a></li>
+                <li><a class="main-nav-link" href="#">Цены</a></li>
+                <li><a class="main-nav-link nav-cta" href="#">Попробуйте бесплатно</a></li>
             </ul>
         </nav>
     </header>
-
+    <!--MAIN-->
     <main>
+        <!--HERO-->
         <section class="section-hero">
             <div class="hero">
                 <div class="hero-text-box">
@@ -59,6 +66,7 @@
                 </div>
             </div>
         </section>
+        <!--FEATURED-->
         <section class="section-featured">
             <div class="container">
                 <h2 class="heading-featured-in">Как представлено в</h2>
@@ -71,6 +79,7 @@
                 </div>
             </div>
         </section>
+        <!--HOW-->
         <section class="section-how">
             <div class="container">
                 <span class="subheading">Как это работает</span>
@@ -123,6 +132,7 @@
             </div>
             </div>
         </section>
+        <!--MEALS-->
         <section class="section-meals">
             <div class="container center-text">
                 <span class="subheading">Еда</span>
@@ -228,6 +238,7 @@
                 <a href="#" class="link">Посмотрите все рецепты &rarr;</a>
             </div>
         </section>
+        <!--TESTIMONIALS-->
         <section class="section-testimonials grid grid--2-cols">
             <div class="testimonials-container">
                 <span class="subheading">Отзывы</span>
@@ -271,7 +282,7 @@
                     </figure>
                 </div>
             </div>
-
+            <!--GALLERY-->
             <div class="gallery">
                 <figure class="gallery-item">
                     <img src="img/gallery/gallery-1.jpg" alt="Photo of beutifully arranded food">
@@ -311,6 +322,7 @@
                 </figure>
             </div>
         </section>
+        <!--PRICING -->
         <section class="section-pricing">
             <div class="container">
                 <span class="subheading">Цены</span>
@@ -378,7 +390,7 @@
                 </div>
 
             </div>
-
+            <!--FEATURES-->
             <div class="container grid">
 
                 <aside class="plan-details">
@@ -392,7 +404,7 @@
                     <ion-icon class="feature-icon" name="infinite-outline"></ion-icon>
                     <p class="feature-title"> Больше никогда не готовьте!</p>
                     <p class="feature-text">
-                        :Наши подписки действуют 365 дней в году, включая большие праздники.
+                        Наши подписки действуют 365 дней в году, включая большие праздники.
                     </p>
 
 
@@ -401,7 +413,7 @@
                     <ion-icon class="feature-icon" name="nutrition-outline"></ion-icon>
                     <p class="feature-title"> Местные и органические</p>
                     <p class="feature-text">
-                        : наши повара используют только местные, свежие и органические продукты для
+                        Наши повара используют только местные, свежие и органические продукты для
                         приготовления ваших блюд.
                     </p>
 
@@ -411,7 +423,7 @@
                     <ion-icon class="feature-icon" name="nutrition-outline"></ion-icon>
                     <p class="feature-title"> Никаких отходов</p>
                     <p class="feature-text">
-                        : все наши партнеры используют только многоразовые контейнеры для упаковки всех ваших
+                        Все наши партнеры используют только многоразовые контейнеры для упаковки всех ваших
                         блюд.
                     </p>
 
@@ -421,13 +433,14 @@
                     <ion-icon class="feature-icon" name="pause-outline"></ion-icon>
                     <p class="feature-title"> Пауза в любое время</p>
                     <p class="feature-text">
-                        : Собираетесь в отпуск? Просто приостановите подписку, и мы вернем деньги за
+                        Собираетесь в отпуск? Просто приостановите подписку, и мы вернем деньги за
                         неиспользованные дни.
                     </p>
 
                 </div>
             </div>
         </section>
+        <!--CALL TO ACTION-->
         <section class="section-cta">
             <div class="container">
                 <div class="cta">
@@ -465,6 +478,63 @@
             </div>
         </section>
     </main>
+    <!--FOOTER-->
+    <footer class="footer">
+        <div class="container grid grid--footer">
+            <div class="logo-col">
+                <a href="#" class="footer-logo">
+                    <img src="img/omnifood-logo.png" alt="Omnifood logo" class="logo">
+                </a>
+                <ul class="social-links">
+                    <li><a class="footer-link" href="#"><ion-icon class="social-icon"
+                                name="logo-instagram"></ion-icon></a></li>
+                    <li><a class="footer-link" href="#"><ion-icon class="social-icon"
+                                name="logo-facebook"></ion-icon></a></li>
+                    <li><a class="footer-link" href="#"><ion-icon class="social-icon"
+                                name="logo-facebook"></ion-icon></a></li>
+                </ul>
+                <p class="copyright">Copyright &copy; 2027 by Omnifood inc.All right reserved.</p>
+            </div>
+            <div class="address-col">
+                <p class="footer-heading">Свяжитесь с нами</p>
+                <address class="constacts">
+                    <p class="address">623 Harrison St., 2nd Floor, San Francisco, CA 94107
+                    </p>
+                    <br><a class="footer-link" href="tel:415-201-6370"> 415-201-6370</a></br>
+                    <a class="footer-link" href="mailto:hello@omnifood.com">hello@omnifood.com</a></p>
+                </address>
+            </div>
+            <nav class="nav-col">
+                <p class="footer-heading">Учетная запись</p>
+                <ul class="footer-nav">
+                    <li><a class="footer-link" href="#">Создать учетную запись</a></li>
+                    <li><a class="footer-link" href="#">Войти</a></li>
+                    <li><a class="footer-link" href="#">iOS приложение</a></li>
+                    <li><a class="footer-link" href="#">Android приложение</a></li>
+                </ul>
+            </nav>
+            <nav class="nav-col">
+                <p class="footer-heading">Компания</p>
+                <ul class="footer-nav">
+                    <li><a class="footer-link" href="#">Об Omnifood</a></li>
+                    <li><a class="footer-link" href="#">Для бизнеса</a></li>
+                    <li><a class="footer-link" href="#">Партнеры по кулинарии</a></li>
+                    <li><a class="footer-link" href="#">Карьера</a></li>
+                </ul>
+
+            </nav>
+            <nav class="nav-col">
+                <p class="footer-heading">Ресурсы</p>
+                <ul class="footer-nav">
+                    <li><a class="footer-link" href="#">Каталог рецептов</a></li>
+                    <li><a class="footer-link" href="#">Центр помощи</a></li>
+                    <li><a class="footer-link" href="#">Конфиденциальность</a></li>
+                </ul>
+            </nav>
+
+
+        </div>
+    </footer>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
