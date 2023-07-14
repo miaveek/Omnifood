@@ -12,6 +12,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
 
     <title>Omnifood</title>
 </head>
@@ -29,9 +30,13 @@
                 <li><a class="main-nav-link" href="#">Еда</a></li>
                 <li><a class="main-nav-link" href="#">Отзывы</a></li>
                 <li><a class="main-nav-link" href="#">Цены</a></li>
-                <li><a class="main-nav-link nav-cta" href="#">Попробуйте бесплатно</a></li>
+                <li><a class="main-nav-link nav-cta" href="#">Попробовать бесплатно</a></li>
             </ul>
         </nav>
+        <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
     </header>
     <!--MAIN-->
     <main>
@@ -42,11 +47,9 @@
                     <h1 class="heading-primary">Здоровая еда доставляется к вашей двери каждый день</h1>
                     <p class="hero-description">
                         Умная подписка на 365-ти дневное питание, которая заставит вас снова есть здоровую пищу. С
-                        учетом
-                        ваших
-                        личных вкусов и потребностей в питании.
+                        учетом ваших личных вкусов и потребностей в питании.
                     </p>
-                    <a href="#" class="btn btn--full margin-right-sm">Начните хорошо есть</a>
+                    <a href="#" class="btn btn--full margin-right-sm">Начать хорошо есть</a>
                     <a href="#" class="btn btn--outline">Узнайте больше &darr;</a>
                     <div class="delivered-meals">
                         <div class="delivered-imgs">
@@ -350,7 +353,6 @@
                         </li>
                         <li class="list-item">
                             <ion-icon class="list-icon" name="close-outline"></ion-icon>
-
                         </li>
 
 
@@ -420,7 +422,7 @@
 
                 </div>
                 <div class="feature">
-                    <ion-icon class="feature-icon" name="nutrition-outline"></ion-icon>
+                    <ion-icon class="feature-icon" name="leaf-outline"></ion-icon>
                     <p class="feature-title"> Никаких отходов</p>
                     <p class="feature-text">
                         Все наши партнеры используют только многоразовые контейнеры для упаковки всех ваших
@@ -496,33 +498,37 @@
                 <p class="copyright">Copyright &copy; 2027 by Omnifood inc.All right reserved.</p>
             </div>
             <div class="address-col">
-                <p class="footer-heading">Свяжитесь с нами</p>
-                <address class="constacts">
-                    <p class="address">623 Harrison St., 2nd Floor, San Francisco, CA 94107
+                <p class="footer-heading">Контакты</p>
+                <address class="contacts">
+                    <p class="address">
+                        623 Harrison St., 2nd Floor, San Francisco, CA 94107
                     </p>
-                    <br><a class="footer-link" href="tel:415-201-6370"> 415-201-6370</a></br>
-                    <a class="footer-link" href="mailto:hello@omnifood.com">hello@omnifood.com</a></p>
+                    <p>
+                        <a class="footer-link" href="tel:415-201-6370">415-201-6370</a><br />
+                        <a class="footer-link" href="mailto:hello@omnifood.com">hello@omnifood.com</a>
+                    </p>
                 </address>
             </div>
-            <nav class="nav-col">
-                <p class="footer-heading">Учетная запись</p>
-                <ul class="footer-nav">
-                    <li><a class="footer-link" href="#">Создать учетную запись</a></li>
-                    <li><a class="footer-link" href="#">Войти</a></li>
-                    <li><a class="footer-link" href="#">iOS приложение</a></li>
-                    <li><a class="footer-link" href="#">Android приложение</a></li>
-                </ul>
-            </nav>
             <nav class="nav-col">
                 <p class="footer-heading">Компания</p>
                 <ul class="footer-nav">
                     <li><a class="footer-link" href="#">Об Omnifood</a></li>
                     <li><a class="footer-link" href="#">Для бизнеса</a></li>
-                    <li><a class="footer-link" href="#">Партнеры по кулинарии</a></li>
+                    <li><a class="footer-link" href="#">Партнеры </a></li>
                     <li><a class="footer-link" href="#">Карьера</a></li>
                 </ul>
 
             </nav>
+            <nav class="nav-col">
+                <p class="footer-heading">Аккаунт</p>
+                <ul class="footer-nav">
+                    <li><a class="footer-link" href="#">Создать аккаунт</a></li>
+                    <li><a class="footer-link" href="#">Войти</a></li>
+                    <li><a class="footer-link" href="#">iOS приложение</a></li>
+                    <li><a class="footer-link" href="#">Android приложение</a></li>
+                </ul>
+            </nav>
+
             <nav class="nav-col">
                 <p class="footer-heading">Ресурсы</p>
                 <ul class="footer-nav">

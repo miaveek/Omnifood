@@ -71,7 +71,9 @@ Medium: 11px
 html {
     /* font-size: 10px;*/
     /*10px /16px = 0.625 = 62.5*/
-    font-size: 45%;
+    font-size: 62%;
+    overflow-x: hidden;
+
 }
 
 body {
@@ -79,6 +81,10 @@ body {
     line-height: 1;
     font-weight: 400;
     color: #555;
+    overflow-x: hidden;
+
+
+
 }
 
 strong {
@@ -195,8 +201,8 @@ strong {
     display: inline-block;
     background-color: #e67e22;
     color: #fff;
-    font-size: 2em;
-    padding: 1.6rem 3.2rem;
+    font-size: 1.8em;
+    padding: 1.6rem 2.8rem;
     border-radius: 12px;
     text-decoration: none;
     transition: all .3s;
