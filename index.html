@@ -13,7 +13,8 @@
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/queries.css" />
-
+    <script defer src="js/script.js"></script>
+    <script defer src='https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js'></script>
     <title>Omnifood</title>
 </head>
 
@@ -26,11 +27,11 @@
         <!--MAIN NAV-->
         <nav class="main-nav">
             <ul class="main-nav-list">
-                <li><a class="main-nav-link" href="#">Как это работает</a></li>
-                <li><a class="main-nav-link" href="#">Еда</a></li>
-                <li><a class="main-nav-link" href="#">Отзывы</a></li>
-                <li><a class="main-nav-link" href="#">Цены</a></li>
-                <li><a class="main-nav-link nav-cta" href="#">Попробовать бесплатно</a></li>
+                <li><a class="main-nav-link" href="#how">Как это работает</a></li>
+                <li><a class="main-nav-link" href="#meals">Еда</a></li>
+                <li><a class="main-nav-link" href="#testimonials">Отзывы</a></li>
+                <li><a class="main-nav-link" href="#price">Цены</a></li>
+                <li><a class="main-nav-link nav-cta" href="#cta">Попробовать бесплатно</a></li>
             </ul>
         </nav>
         <button class="btn-mobile-nav">
@@ -49,8 +50,8 @@
                         Умная подписка на 365-ти дневное питание, которая заставит вас снова есть здоровую пищу. С
                         учетом ваших личных вкусов и потребностей в питании.
                     </p>
-                    <a href="#" class="btn btn--full margin-right-sm">Начать хорошо есть</a>
-                    <a href="#" class="btn btn--outline">Узнайте больше &darr;</a>
+                    <a href="#cta" class="btn btn--full margin-right-sm">Начать хорошо есть</a>
+                    <a href="#how" class="btn btn--outline">Узнайте больше &darr;</a>
                     <div class="delivered-meals">
                         <div class="delivered-imgs">
                             <img src="img/customers/customer-1.jpg" alt="Customer photo">
@@ -83,7 +84,7 @@
             </div>
         </section>
         <!--HOW-->
-        <section class="section-how">
+        <section class="section-how" id="how">
             <div class="container">
                 <span class="subheading">Как это работает</span>
                 <h2 class="heading-secondary">Ваша суточная доза здоровья — 3 простых шага</h2>
@@ -136,7 +137,7 @@
             </div>
         </section>
         <!--MEALS-->
-        <section class="section-meals">
+        <section class="section-meals" id="meals">
             <div class="container center-text">
                 <span class="subheading">Еда</span>
                 <h2 class="heading-secondary">Omnifood AI выбирает из 5000+ рецептов</h2>
@@ -242,7 +243,7 @@
             </div>
         </section>
         <!--TESTIMONIALS-->
-        <section class="section-testimonials grid grid--2-cols">
+        <section class="section-testimonials grid grid--2-cols" i="testimonials">
             <div class="testimonials-container">
                 <span class="subheading">Отзывы</span>
                 <h2 class="heading-secondary">Однажды попробовав, ты не сможешь вернуться</h2>
@@ -326,7 +327,7 @@
             </div>
         </section>
         <!--PRICING -->
-        <section class="section-pricing">
+        <section class="section-pricing" id="price">
             <div class="container">
                 <span class="subheading">Цены</span>
                 <h2 class="heading-secondary">Хорохо кушать,не разорившись.</h2>
@@ -443,7 +444,7 @@
             </div>
         </section>
         <!--CALL TO ACTION-->
-        <section class="section-cta">
+        <section class="section-cta" id="cta">
             <div class="container">
                 <div class="cta">
                     <div class="cta-text-box">
@@ -495,7 +496,8 @@
                     <li><a class="footer-link" href="#"><ion-icon class="social-icon"
                                 name="logo-facebook"></ion-icon></a></li>
                 </ul>
-                <p class="copyright">Copyright &copy; 2027 by Omnifood inc.All right reserved.</p>
+                <p class="copyright">Copyright &copy; <span class="year">2027</span> by Omnifood inc.All right reserved.
+                </p>
             </div>
             <div class="address-col">
                 <p class="footer-heading">Контакты</p>
